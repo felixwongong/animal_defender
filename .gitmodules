@@ -1,0 +1,3 @@
+[submodule "CofyEngine/CofyEngine"]
+	path = CofyEngine/CofyEngine
+	url = https://github.com/felixwongong/CofyEngine.git
