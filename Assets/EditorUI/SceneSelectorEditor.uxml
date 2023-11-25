@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/EditorUI/SceneSelectorEditor.uss?fileID=7433441132597879392&amp;guid=773e85b97cb4b4840aeb974313049e9f&amp;type=3#SceneSelectorEditor" />
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: flex-start; align-items: stretch; flex-basis: 0;">
+        <ui:ListView focusable="true" name="directory" style="flex-grow: 3; width: 123px; flex-basis: 30%;" />
+        <ui:ListView focusable="true" name="scenes" style="width: 416px; flex-grow: 7;" />
+    </ui:VisualElement>
+</ui:UXML>
