@@ -19,6 +19,5 @@ namespace CofyDev.AnimalDefender.Bootstrap
         {
             sm.GoToState(BootStateId.UI);
         }
-
     }
 }

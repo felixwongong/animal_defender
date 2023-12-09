@@ -8,7 +8,10 @@ namespace CofyDev.AnimalDefender.Bootstrap
     {
         protected override Future<List<GameObject>> LoadAll()
         {
-            throw new System.NotImplementedException();
+            List<Future<GameObject>> loadPromise = new List<Future<GameObject>>();
+
+            
+            return loadPromise.Group();
         }
     }
 }

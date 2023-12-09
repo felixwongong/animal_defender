@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35b30619ea8677549becc168de1ad7dd, type: 3}
   m_Name: ConfigInfoSO
   m_EditorClassIdentifier: 
-  localUIPath: Assets/Resources/LocalUI
+  localPath: Assets/Resources/LocalUI
   uiDirectory: 
   sceneDirectory: Assets/Samples

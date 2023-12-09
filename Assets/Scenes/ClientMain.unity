@@ -260,8 +260,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   persistentScenes:
-  - 
-  _config: {fileID: 11400000, guid: c6348d0b9e19c444b9c8473ab74342b2, type: 2}
+  - ClientMain
+  config: {fileID: 11400000, guid: c6348d0b9e19c444b9c8473ab74342b2, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
