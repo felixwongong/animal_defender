@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: ConfigInfoSO
   m_EditorClassIdentifier: 
   localPath: Assets/Resources/LocalUI
-  uiDirectory: 
+  uiDirectory: Assets/Prefab/UI
   sceneDirectory: Assets/Samples
