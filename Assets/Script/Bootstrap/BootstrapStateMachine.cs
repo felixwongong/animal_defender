@@ -10,6 +10,7 @@ namespace CofyDev.AnimalDefender.Bootstrap
         public BootstrapStateMachine()
         {
             sm = new StateMachine<BootStateId>(true);
+            sm.RegisterState(new AtlasLoadState());
             sm.RegisterState(new UILoadStateImpl());
             sm.RegisterState(new LoginState());
             sm.RegisterState(new TerminateState(GameStateMachineImpl.instance));
@@ -17,7 +18,7 @@ namespace CofyDev.AnimalDefender.Bootstrap
 
         public void Init()
         {
-            sm.GoToState(BootStateId.UI);
+            sm.GoToState(BootStateId.AtlasLoad);
         }
     }
 }
