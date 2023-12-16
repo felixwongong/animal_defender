@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using CofyEngine;
+using CofyUI;
 using UnityEngine;
 
 namespace CofyDev.AnimalDefender.Bootstrap
@@ -8,10 +9,11 @@ namespace CofyDev.AnimalDefender.Bootstrap
     {
         protected override Future<List<GameObject>> LoadAll()
         {
-            List<Future<GameObject>> loadPromise = new List<Future<GameObject>>();
-
+            List<Future<GameObject>> promise = new List<Future<GameObject>>();
             
-            return loadPromise.Group();
+            promise.Add(UIRoot.instance.Bind<BattleUIPanel>(LoadUI("Battle/battle_panel")));
+
+            return promise.Group();
         }
     }
 }
