@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Default Local Group
+  m_Name: Generic
   m_EditorClassIdentifier: 
-  m_GroupName: Default Local Group
+  m_GroupName: Generic
   m_Data:
     m_SerializedData: []
-  m_GUID: de42f0edb0bc60f4694fe363dd61385b
+  m_GUID: d16f443a259e94b73b06dc7b0e8e3f32
   m_SerializeEntries:
-  - m_GUID: 22bbb92b038834377afa2217778d8ee9
-    m_Address: Assets/Prefab/UI/Battle
+  - m_GUID: a3ce1b0cec31d0e46a102ed780b40ba0
+    m_Address: Assets/Prefab/Scene
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -26,5 +26,5 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: fefab04bc75317a45b86dab7a2a378e4, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 2aa617d10c1bc634a847f68efd9fe5ad, type: 2}
-    - {fileID: 11400000, guid: e7f884f71ebd39b43af83bd93a6740ca, type: 2}
+    - {fileID: 11400000, guid: ba850b21596ed46fcb3c370940a59867, type: 2}
+    - {fileID: 11400000, guid: 2068b6ef6b1064a8cbb04f1cdbce5575, type: 2}
