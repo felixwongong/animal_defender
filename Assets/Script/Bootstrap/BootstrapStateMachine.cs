@@ -10,8 +10,8 @@ namespace CofyDev.AnimalDefender.Bootstrap
         public BootstrapStateMachine()
         {
             sm = new StateMachine<BootStateId>(true);
-            sm.RegisterState(new BootstrapUIImpl());
-            sm.RegisterState(new BootstrapUGS());
+            sm.RegisterState(new UILoadStateImpl());
+            sm.RegisterState(new LoginState());
             sm.RegisterState(new TerminateState(GameStateMachineImpl.instance));
         }
 

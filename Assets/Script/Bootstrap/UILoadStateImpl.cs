@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace CofyDev.AnimalDefender.Bootstrap
 {
-    public class BootstrapUIImpl: BootstrapUI
+    public class UILoadStateImpl: UILoadState
     {
         protected override Future<List<GameObject>> LoadAll()
         {
