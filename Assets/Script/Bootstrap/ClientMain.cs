@@ -1,13 +1,16 @@
 using System.Collections.Generic;
 using CofyEngine;
 using CofyEngine.Editor;
+using UnityEditor;
 using UnityEngine;
 
 namespace CofyDev.AnimalDefender.Bootstrap
 {
     public class ClientMain : MonoInstance<ClientMain>
     {
-        [CofyScene] public List<string> persistentScenes;
+        [CofyAssetObject(typeof(SceneAsset))] 
+        public List<string> persistentScenes;
+        
         [SerializeField] private ConfigSO config;
 
         void Start()
