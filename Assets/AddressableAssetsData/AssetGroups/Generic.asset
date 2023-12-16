@@ -27,6 +27,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 352332607d6784de1b8037defcecb06d
+    m_Address: Assets/Atlas/icons.spriteatlasv2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: fefab04bc75317a45b86dab7a2a378e4, type: 2}
   m_SchemaSet:

@@ -15,3 +15,6 @@ MonoBehaviour:
   localPath: Assets/Resources/LocalUI
   uiDirectory: Assets/Prefab/UI
   sceneDirectory: Assets/Scenes
+  atlasDirectory: Assets/Atlas
+  preloadAtlas:
+  - icons
