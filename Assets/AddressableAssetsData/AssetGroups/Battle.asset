@@ -12,11 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
   m_Name: Battle
   m_EditorClassIdentifier: 
-  m_GroupName: Packed Assets
+  m_GroupName: Battle
   m_Data:
     m_SerializedData: []
   m_GUID: a8004537896514c37b1878a7fca6b321
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 22bbb92b038834377afa2217778d8ee9
+    m_Address: Assets/Prefab/UI/Battle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: fefab04bc75317a45b86dab7a2a378e4, type: 2}
   m_SchemaSet:

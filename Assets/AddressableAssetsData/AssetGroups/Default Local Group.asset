@@ -16,12 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: de42f0edb0bc60f4694fe363dd61385b
-  m_SerializeEntries:
-  - m_GUID: 22bbb92b038834377afa2217778d8ee9
-    m_Address: Assets/Prefab/UI/Battle
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: fefab04bc75317a45b86dab7a2a378e4, type: 2}
   m_SchemaSet:
