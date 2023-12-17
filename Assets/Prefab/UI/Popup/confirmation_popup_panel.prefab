@@ -602,10 +602,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: confirmation_popup_panel
       objectReference: {fileID: 0}
-    - target: {fileID: 7475216412813404620, guid: 83d94f7e9d9c7484090cc00ab7607e30, type: 3}
-      propertyPath: m_Alpha
-      value: 0.64
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
