@@ -1,5 +1,7 @@
+using System;
 using System.Collections.Generic;
 using CofyEngine;
+using CofyEngine.Core;
 using CofyEngine.Editor;
 using UnityEditor;
 using UnityEngine;
@@ -19,6 +21,11 @@ namespace CofyDev.AnimalDefender.Bootstrap
             
             BootstrapStateMachine.instance.Init();
             LevelManager.instance.SetPersistent(persistentScenes);
+        }
+
+        private void Update()
+        {
+            MainThreadExecutor.instance.OnUpdate();
         }
     }
 }
