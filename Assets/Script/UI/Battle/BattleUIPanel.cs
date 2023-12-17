@@ -1,6 +1,6 @@
 using CofyUI;
 
-public class BattleUIPanel : UIInstance<BattleUIPanel>
+public class BattleUIPanel : UIPanel<BattleUIPanel>
 {
 
 }
