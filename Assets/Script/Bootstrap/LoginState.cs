@@ -19,7 +19,7 @@ namespace CofyEngine
             
             initFuture.OnSucceed(_ =>
             {
-                ConfirmationPopupPanel.instance.Show();
+                ConfirmationPopupPanel.instance.Inqiure();
                 sm.GoToState(BootStateId.Terminate);
             });
             
