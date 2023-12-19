@@ -27,5 +27,10 @@ namespace CofyDev.AnimalDefender.Bootstrap
         {
             MainThreadExecutor.instance.OnUpdate();
         }
+
+        private void OnDestroy()
+        {
+            MainThreadExecutor.instance.Dispose();
+        }
     }
 }

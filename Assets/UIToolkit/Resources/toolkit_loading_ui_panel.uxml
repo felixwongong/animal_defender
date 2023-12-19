@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="bg" style="width: 100%; height: 100%; background-image: url(&apos;project://database/Assets/Layer%20Lab/GUI%20Pro-CasualGame/ResourcesData/Sprite/Demo/Demo_Background/Background_01.png?fileID=2800000&amp;guid=140056dae9246407594757b8ec82f946&amp;type=3#Background_01&apos;); flex-direction: column-reverse; padding-bottom: 10%; align-items: center;">
+        <ui:ProgressBar value="22" title="my-progress" name="progress" style="width: 80%; height: 7%;" />
+        <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="message" style="width: 80%; height: 7%; font-size: 50%; -unity-text-align: upper-center; margin-bottom: 2%; color: rgb(0, 0, 0); -unity-background-image-tint-color: rgb(241, 231, 135); background-color: rgb(255, 255, 255);" />
+    </ui:VisualElement>
+</ui:UXML>
